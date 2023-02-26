@@ -23,7 +23,7 @@ function App() {
   return (
       <div className='Container'>
         <NewImageForm createImage={createImage}/>
-        <GalleryList photos={photos} showImage={showImage} />
+        <GalleryList photos={photos} showImage={showImage}/>
         {popUp && <PopUp setVisible={setPopUp} imageURL={imageURL}/>}
       </div>
   );
