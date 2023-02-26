@@ -1,0 +1,10 @@
+.NewImageForm {
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  @media (min-width: 1024px) {
+    flex-direction: row;
+  }
+}

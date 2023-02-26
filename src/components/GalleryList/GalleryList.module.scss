@@ -1,0 +1,9 @@
+.PhotosList {
+  margin: 20px 0;
+  display: flex;
+  flex-wrap: wrap;
+
+  @media (min-width: 768px) {
+    margin: 40px -10px;
+  }
+}
